@@ -1,0 +1,14 @@
+# ── Fase 1: Ingesta GTFS ──────────────────────────────────────────
+google-cloud-storage>=2.16.0
+google-cloud-bigquery>=3.17.0
+google-cloud-bigquery-storage>=2.24.0   # acelera lecturas BQ con pandas
+pandas>=2.2.0
+pyarrow>=15.0.0                         # backend de pandas para BQ
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# ── Fase 2: Transformaciones (dbt) ────────────────────────────────
+# dbt-bigquery>=1.8.0   # descomentar en Fase 2
+
+# ── Fase 3: Orquestación ──────────────────────────────────────────
+# prefect>=3.0.0        # descomentar en Fase 3

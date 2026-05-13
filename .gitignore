@@ -216,3 +216,39 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ================================
+# 🔐 Entorno / variables sensibles
+# ================================
+.env
+.env.*
+*.env
+
+# ================================
+# 🔑 Credenciales
+# ================================
+credentials/*.json
+*.json
+
+# ================================
+# 🐍 Python cache
+# ================================
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ================================
+# 📦 Entornos virtuales
+# ================================
+venv/
+.venv/
+
+# ================================
+# 📓 Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# Credenciales GCP
+credentials/
+*.json
